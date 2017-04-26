@@ -5,8 +5,8 @@ var output = document.getElementById("output");
 var speech = document.getElementById("speech");
 var accent;
 
-button.addEventListener("click", function(){
-	var inputArray = input.value.split(" ");
+document.addEventListener("keyup", function(){
+		var inputArray = input.value.split(" ");
 
 	if (lang.value == 0) {
 		output.innerHTML = Tranzlate.toFrench(inputArray);
@@ -28,3 +28,10 @@ button.addEventListener("click", function(){
 		responsiveVoice.speak(output.innerHTML, accent);
 	}
 });
+
+// setTimeout(function() {
+//   //your code to be executed after 1 second
+// }, delayMillis);
+
+
+
