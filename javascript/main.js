@@ -5,7 +5,7 @@ var output = document.getElementById("output");
 var speech = document.getElementById("speech");
 var accent;
 
-button.addEventListener("click", function(){
+document.addEventListener("keyup", function(){
 	var inputArray = input.value.split(" ");
 
 	if (lang.value == 0) {
