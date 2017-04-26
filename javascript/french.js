@@ -3,14 +3,14 @@ var Tranzlate = (function(taco){
 		str = "";
 
 	return {
-		toFrench: function(arr){
-			console.log(arr);
+		toFrench: function(words){
+			console.log(words);
 
-			for (var i = 0; i < arr.length; i++) {
+			for (var i = 0; i < words.length; i++) {
 
 				for(prop in french){
 
-					if (prop == arr[i].toLowerCase()){
+					if (prop == words[i].toLowerCase()){
 						str += french[prop] + " ";
 					}
 				}
