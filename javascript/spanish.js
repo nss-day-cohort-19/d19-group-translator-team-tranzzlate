@@ -1,6 +1,7 @@
 var Tranzlate = (function(taco){
 	var spanish = {"merry":"feliz", "christmas":"navidad", "and":"y", "happy":"feliz", "new":"nuevo", "year":"año"},
-		str = "";
+		str = "",
+		newStr;
 
 	taco.toSpanish = function(arr){
 		console.log(arr);
@@ -11,7 +12,9 @@ var Tranzlate = (function(taco){
 				}
 			}
 		}
-		return str;
+		newStr = str;
+		str = "";
+		return newStr;
 	}
 	return taco
-})(Tranzlate);
+})(Tranzlate || {});

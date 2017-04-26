@@ -1,17 +1,20 @@
 var Tranzlate = (function(taco){
 	var german = {"merry": "Fröhlich", "christmas": "Weihnachten", "and": "und", "happy": "Glücklich", "new": "Neu", "year": "Jahr"},
-		strGerman = "";
+		str = "",
+		newStr;
 
 	taco.toGerman = function(arr){
 		console.log(arr);
 		for (var i = 0; i < arr.length; i++) {
 			for(prop in german){
 				if (prop == arr[i].toLowerCase()){
-					strGerman += german[prop] + " ";
+					str += german[prop] + " ";
 				}
 			}
 		}
-		return strGerman;
+		newStr = str;
+		str = "";
+		return newStr;
 	}
-	return taco
-})(Tranzlate);
+	return taco;
+})(Tranzlate || {})
