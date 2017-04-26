@@ -1,6 +1,7 @@
 var Tranzlate = (function(taco){
 	var yoruba = {"merry":"ariya", "christmas":"keresimesi", "and":"ati", "happy":"happy", "new":"titun", "year":"odun"},
-		str = "";
+		str = "",
+		newStr;
 
 	taco.toYoruba = function(arr){
 		console.log(arr);
@@ -11,7 +12,9 @@ var Tranzlate = (function(taco){
 				}
 			}
 		}
-		return str;
+		newStr = str;
+		str = "";
+		return newStr;
 	}
 	return taco
-})(Tranzlate);
+})(Tranzlate || {});
