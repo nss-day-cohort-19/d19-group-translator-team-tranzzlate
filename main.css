@@ -9,6 +9,7 @@ h1 {
 
 h2 {
 	text-align: center;
+	font-weight: bold;
 }
 
 #whatgreeting {
@@ -51,16 +52,12 @@ textarea {
 	font-size: medium;
 }
 
-#translate {
-	float: left;
-	font-size: medium;
-	width: 40%;
-}
-
 #speech {
-	float: right;
-	font-size: medium;
-	width: 40%;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 2em;
+	text-align: center;
+	font-size: 16px;
 }
 
 #footer {
