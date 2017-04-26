@@ -9,7 +9,7 @@ button.addEventListener("click", function(){
 	if (lang.value == 0) {
 		output.innerHTML = Tranzlate.toFrench(inputArray);
 	} else if (lang.value == 1){
-		output.innerHTML = Tranzlate.toYiddish(inputArray);
+		output.innerHTML = Tranzlate.toYoruba(inputArray);
 	} else if (lang.value == 2){
 		output.innerHTML = Tranzlate.toSpanish(inputArray);
 	} else if (lang.value == 3){
