@@ -15,6 +15,7 @@ var Tranzlate = (function(taco){
 					}
 				}
 			}
+			return str;
 		}
 	}
 	return taco

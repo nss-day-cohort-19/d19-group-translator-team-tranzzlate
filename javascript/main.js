@@ -3,9 +3,6 @@ var input = document.getElementById("input");
 var button = document.getElementById("translate");
 var output = document.getElementById("output");
 
-//var Tranzlate = (function);
-
-
 button.addEventListener("click", function(){
 	var inputArray = input.value.split(" ");
 
@@ -14,7 +11,7 @@ button.addEventListener("click", function(){
 	} else if (lang.value == 1){
 		output.innerHTML = Tranzlate.toYiddish(inputArray);
 	} else if (lang.value == 2){
-
+		output.innerHTML = Tranzlate.toSpanish(inputArray);
 	} else if (lang.value == 3){
 		output.innerHTML = Tranzlate.toGerman(inputArray);
 	} else {
