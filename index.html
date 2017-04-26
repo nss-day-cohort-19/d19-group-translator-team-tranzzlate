@@ -2,20 +2,27 @@
 <html>
 <head>
 	<title>Team Tranzzlate</title>
+	<link rel="stylesheet" href="main.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-
-	<textarea rows="4" cols="50" id="input"></textarea>
-
-	<select id="lang">
-	  <option id="French" value="0">French</option>
-	  <option id="Yoruba" value="1">Yoruba</option>
-	  <option id="Spanish" value="2">Spanish</option>
-	  <option id="German" value="3">German</option>
-	</select>
-
-	<button type="submit" id="translate">Translate</button>
-
+	<header>
+	<h1>Welcome to Tranzzlate It!</h1>
+	</header>
+	<div id="whatgreeting">
+		<h2>What greeting would you like to translate?</h2>
+		<textarea rows="1" cols="16" id="input"></textarea>
+		<p id="whatlang">What language?</p>
+		<select id="lang">
+		  <option id="French" value="0">French</option>
+		  <option id="Yoruba" value="1">Yoruba</option>
+		  <option id="Spanish" value="2">Spanish</option>
+		  <option id="German" value="3">German</option>
+		</select><br><br>
+		<button type="submit" id="translate">Translate it</button>
+		<button type="button" id="speech">Hear it</button>
+	</div>
+	<br><br>
 	<div id="output"></div>
 
 <script type="text/javascript" src="javascript/german.js"></script>
@@ -24,5 +31,6 @@
 <script type="text/javascript" src="javascript/french.js"></script>
 
 <script type="text/javascript" src="javascript/main.js"></script>
+	<footer id="footer">&copy 2017 Team Tranzzlate</footer>
 </body>
 </html>

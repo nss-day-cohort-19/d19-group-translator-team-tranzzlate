@@ -1,0 +1,69 @@
+body {
+	background: #c0dfd9;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+#whatgreeting {
+	margin: auto;
+	width: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#whatlang {
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+}
+
+textarea {
+	width: 150px;
+	margin: auto;
+	width: 100%;
+	font-size: xx-large;
+}
+
+#output {
+	background: #e9ece5;
+	margin: auto;
+	width: 50%;
+	border: 1px solid grey;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: bolder;
+	font-size: xx-large;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#lang {
+	width: 100%;
+	margin: auto;
+	font-size: medium;
+}
+
+#translate {
+	float: left;
+	font-size: medium;
+	width: 40%;
+}
+
+#speech {
+	float: right;
+	font-size: medium;
+	width: 40%;
+}
+
+#footer {
+	padding-top: 30px;
+	text-align: center;
+}
