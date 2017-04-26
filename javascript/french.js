@@ -1,5 +1,5 @@
 var Tranzlate = (function(taco){
-	var french = {"merry":"god", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"år"},
+	var french = {"merry":"joyeux", "christmas":"noel", "and":"et", "happy":"content", "new":"nouveau", "year":"an"},
 		str = "";
 
 	return {
