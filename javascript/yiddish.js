@@ -1,13 +1,13 @@
 var Tranzlate = (function(taco){
-	var yiddish = {"merry":"yiddish", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"år"},
+	var yoruba = {"merry":"ariya", "christmas":"keresimesi", "and":"ati", "happy":"happy", "new":"titun", "year":"odun"},
 		str = "";
 
-	taco.toYiddish = function(arr){
+	taco.toYoruba = function(arr){
 		console.log(arr);
 		for (var i = 0; i < arr.length; i++) {
-			for(prop in yiddish){
+			for(prop in yoruba){
 				if (prop == arr[i].toLowerCase()){
-					str += yiddish[prop] + " ";
+					str += yoruba[prop] + " ";
 				}
 			}
 		}
