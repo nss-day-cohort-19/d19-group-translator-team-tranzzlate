@@ -1,5 +1,5 @@
 var Tranzlate = (function(taco){
-	var yiddish = {"merry":"god", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"år"},
+	var yiddish = {"merry":"yiddish", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"år"},
 		str = "";
 
 	taco.toYiddish = function(arr){
