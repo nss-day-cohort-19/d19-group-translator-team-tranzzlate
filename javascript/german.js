@@ -1,5 +1,5 @@
 var Tranzlate = (function(taco){
-	var german = {"merry": "fröhlich", "christmas": "Weihnachten", "and": "und", "happy": "glücklich", "new": "neu", "year": "Jahr"},
+	var german = {"merry": "Fröhlich", "christmas": "Weihnachten", "and": "und", "happy": "Glücklich", "new": "Neu", "year": "Jahr"},
 		strGerman = "";
 
 	taco.toGerman = function(arr){
